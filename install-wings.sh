@@ -187,7 +187,7 @@ check_os_comp() {
       [ "$OS_VER_MAJOR" == "8" ] && SUPPORTED=true
       ;;
     *)
-      SUPPORTED=false ;;
+      SUPPORTED=true ;;
   esac
 
   # exit if not supported
